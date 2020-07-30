@@ -1,0 +1,8 @@
+*.pyc
+*.sw[opn]
+.envrc
+.vscode/
+__pycache__
+build/
+dist/
+python_ote.egg-info/
