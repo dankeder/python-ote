@@ -8,7 +8,7 @@ with open("requirements.txt") as fh:
 
 setuptools.setup(
     name="python-ote",
-    version="0.0.3",
+    version="0.1.0",
     author="Dan Keder",
     author_email="dan.keder@protonmail.com",
     description="Python library for scraping daily electricity prices from OTE (ote-cr.cz)",
