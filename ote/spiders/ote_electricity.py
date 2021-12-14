@@ -59,5 +59,6 @@ class DayMarketPricesSpider(scrapy.Spider):
             loader.add_css("price", "td::text")
             item = loader.load_item()
 
-            self._cb_item_scraped(item)
+            if self._cb_item_scraped is not None:
+                self._cb_item_scraped(item)
             yield item
