@@ -8,6 +8,15 @@ Electricity prices scraper for OTE (ote-cr.cz)
 pip install python-ote
 ```
 
+In order to parse numbers corrently (Czech notation - e.g. 1,000,000) this
+package needs the `cs_CZ.UTF-8` system locale. If the OS doesn't have it by default
+the following commands can be used generate it:
+
+```
+echo "cs_CZ.UTF-8 UTF-8" >> /etc/locale.gen
+locale-gen
+```
+
 ## Usage
 
 ```
